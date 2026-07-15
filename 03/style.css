@@ -1,0 +1,50 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* header */
+header {
+  padding: 10px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+header li {
+  padding: 10px;
+}
+
+/* Footer */
+footer {
+  padding: 10px;
+}
+
+/* box */
+.box {
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.box.-pattern1 {
+  background-color: #fcc;
+}
+
+.box.-pattern2 {
+  background-color: #ffc;
+}
+
+.box.-pattern3 {
+  background-color: #cff;
+}
+
+.box.-pattern4 {
+  background-color: #ccf;
+}

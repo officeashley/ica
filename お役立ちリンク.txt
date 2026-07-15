@@ -1,0 +1,41 @@
+・HTML/CSSのポイント
+　https://jobtech.jp/pdf/html_point.pdf
+
+・Emmet記法について
+　https://jobtech.jp/html_css/3842/
+
+・HTML文法チェック「Markup Validation Service」
+　https://validator.w3.org/#validate_by_input
+
+・CSS文法チェック「The W3C CSS Validation Service」
+　https://jigsaw.w3.org/css-validator/
+
+・HTML+CSSのブラウザ対応状況を調べる「Can I use」
+　https://caniuse.com/
+
+・セレクタのチートシート
+　https://webliker.info/css-selector-cheat-sheet/
+
+・画像・アイコン素材サイト
+　https://jobtech.jp/design/5653/
+
+・顔アイコンジェネレーターZ
+　https://icon-z.com/
+
+・VSCodeの本「Visual Studio Code完全入門」
+　https://amzn.asia/d/0e3OX6w7
+
+・draw.io の使い方
+　https://jobtech.jp/other/12502/
+
+・アトミックデザインについて
+　https://spice-factory.co.jp/web/about-atmicdesign/
+
+・GoogleFontsの使い方
+　https://jobtech.jp/html_css/12588/
+
+・GoogleMapをサイト内に表示
+　https://jobtech.jp/html_css/5969/
+
+MDN 
+https://developer.mozilla.org/ja/

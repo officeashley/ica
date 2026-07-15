@@ -1,0 +1,13 @@
+﻿body {     background-color: #dac5c5;
+ /* background-image: url(img/boxbg.gif); 
+ background-repeat: no-repeat;
+ background-position: center top;
+ background-attachment: fixed;*/
+background-image: url(img/bg01.jpg);
+/*background-size: 200px 400px;
+background-size: 200px;
+background-size: auto 200px;
+background-size:contain*/
+background-size: cover;
+
+}

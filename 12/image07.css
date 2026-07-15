@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+.normal {
+  width: 960px;
+  margin:  0 auto;
+}
+
+.eyecatch {
+  border-radius: 0;
+}

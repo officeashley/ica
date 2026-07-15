@@ -1,0 +1,15 @@
+figure {
+  margin: 0;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+.aligncenter {
+  text-align: center;
+}

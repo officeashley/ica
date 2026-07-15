@@ -1,0 +1,10 @@
+1.Visual Studio Code インストール
+　https://jobtech.jp/other/2270/
+2.Visual Studio Code 日本語化
+　https://jobtech.jp/other/2288/
+3.Visual Studio Code おすすめ設定
+　https://jobtech.jp/other/3536/
+4.Visual Studio Code おすすめ拡張機能
+　https://jobtech.jp/other/2286/
+5.Visual Studio Code テーマ変更
+　https://jobtech.jp/other/3548/

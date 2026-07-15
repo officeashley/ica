@@ -1,0 +1,21 @@
+﻿/*h1{color:#ff5722;} */
+h1 {
+    color: ff5722;
+    font-size: 3rem
+    text-shadow: 2px 2px 2px #110202；
+}
+h2 {
+    color: rgba(211, 118, 31, 0.92);
+    font-size: 2rem;
+    text-shadow: 2px 2px 10px #ff9800;
+}
+pre{font-weight: 700;text-decoration:underline;}
+
+pre {color: rgba(0, 0, 0, 0.616);
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: left;
+    line-height: 1.6;
+    text-shadow: 1px 3px 1px blue;
+    /*  */
+}   
