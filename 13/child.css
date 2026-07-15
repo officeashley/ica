@@ -1,0 +1,14 @@
+.group1 li:first-child{color:#c1f436;}
+.group1 li:last-child{color:#6817d1;}
+
+/*.group1 li:nth-child(7){color:#22d322;}*/
+.group1 li:nth-child(2n+1){color:#d32289;}
+
+.group2 li:nth-child(odd){color:#d32289;}
+.group2 li:nth-child(even){color:#22d322;}
+
+
+.group3 li:first-child{border-top:  solid 3px #22d3;}
+.group3 li:{border-bottom:  solid 3px #22d3;}
+
+

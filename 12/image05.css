@@ -13,3 +13,11 @@ figure {
 .aligncenter {
   text-align: center;
 }
+h1 {
+  clear: left;
+}
+
+p{
+  clear: both;
+}
+
