@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS優先度</title>
+  <link rel="stylesheet" href="priority.css">
+  <style>
+    /*
+    strong {
+      color: purple !important;
+    }
+    p strong {
+      color: gray;
+    }
+    */
+    strong {
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS優先度</h1>
+  <p><strong style="color:red;">段落１</strong>のサンプルテキスト</p>
+
+  <p><strong>段落２</strong>のサンプルテキスト</p>
+
+  <p><strong>段落３</strong>のサンプルテキスト</p>
+</body>
+
+</html>

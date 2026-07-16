@@ -1,0 +1,24 @@
+div {
+  margin: 10px;
+}
+
+.container {
+  border: 5px solid #f00;
+  display: flex;
+}
+
+.item {
+  background-color: #bbdefb;
+  padding: 10px;
+}
+
+.flex2 .container{
+  flex-wrap: wrap;
+  gap: 20px 40px;
+}
+
+
+.flex3 .container{
+flex-wrap: wrap;
+justify-content: center;
+}

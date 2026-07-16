@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexレイアウト</title>
+  <link rel="stylesheet" href="flex.css">
+</head>
+
+<body>
+  <h1>flexレイアウト</h1>
+  <section>
+    <h2>HTML構造</h2>
+    <div class="container">
+      <div class="item">flexアイテム1</div>
+      <div class="item">flexアイテム2</div>
+      <div class="item">flexアイテム3</div>
+    </div>
+  </section>
+
+  <section class="flex1">
+    <h2>flex1 | Flex基本形</h2>
+    <p>flexレイアウト表示 | display: flex;</p>
+    <div class="container">
+      <div class="item">flexアイテム1</div>
+      <div class="item">flexアイテム2</div>
+      <div class="item">flexアイテム3</div>
+    </div>
+  </section>
+
+  <section class="flex2">
+    <h2>flex2 | 子要素の折り返し・間隔</h2>
+    <p>flexコンテナ専用プロパティ | flex-wrap・gap</p>
+    <div class="container">
+      <div class="item">flexアイテム1</div>
+      <div class="item">flexアイテム2</div>
+      <div class="item">flexアイテム3</div>
+      <div class="item">flexアイテム4</div>
+      <div class="item">flexアイテム5</div>
+      <div class="item">flexアイテム6</div>
+      <div class="item">flexアイテム7</div>
+      <div class="item">flexアイテム8</div>
+    </div>
+  </section>
+
+  <section class="flex3">
+    <h2>flex3 | 子要素の水平方向表示位置</h2>
+    <p>flexコンテナ専用プロパティ | justify-content</p>
+    <div class="container">
+      <div class="item">flexアイテム1</div>
+      <div class="item">flexアイテム2</div>
+      <div class="item">flexアイテム3</div>
+      <div class="item">flexアイテム4</div>
+      <div class="item">flexアイテム5</div>
+      <div class="item">flexアイテム6</div>
+      <div class="item">flexアイテム7</div>
+      <div class="item">flexアイテム8</div>
+    </div>
+  </section>
+
+  <section class="flex4">
+    <h2>flex4 | 子要素の垂直方向表示位置</h2>
+    <p>flexコンテナ専用プロパティ | align-items</p>
+    <div class="container">
+      <div class="item">
+        flexアイテム1
+      </div>
+      <div class="item">
+        flexアイテム2<br>
+        flexアイテム2<br>
+        flexアイテム2
+      </div>
+      <div class="item">
+        flexアイテム3<br>
+        flexアイテム3
+      </div>
+    </div>
+  </section>
+
+  <section class="flex5">
+    <h2>flex5 | flexアイテムの表示順</h2>
+    <p>flexアイテム専用プロパティ | order</p>
+    <div class="container">
+      <div class="item">1<br>指定なし</div>
+      <div class="item">2<br>order: 2;</div>
+      <div class="item">3<br>order: 1;</div>
+      <div class="item">4<br>order: 3;</div>
+      <div class="item">5<br>order: 3;</div>
+      <div class="item">6<br>order: -1;</div>
+    </div>
+  </section>
+</body>
+
+</html>

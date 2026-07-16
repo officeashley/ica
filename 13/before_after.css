@@ -1,0 +1,27 @@
+.test::before{
+    content:" ★";
+    color: brown;
+}
+
+.test::after{
+    content: "!";
+}
+
+a{text-decoration: none;}
+
+
+a:hover{
+    opacity: 0.7;
+
+}
+
+a[href$=".pdf"]::after{
+    content: "";
+    background-image: url('../12img/bag.png');
+    display: inline-block;
+    width:  20px;
+    height: 20px;
+    background-size: contain;
+    vertical-align: middle;
+    
+}
