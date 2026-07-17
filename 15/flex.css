@@ -22,3 +22,35 @@ div {
 flex-wrap: wrap;
 justify-content: center;
 }
+
+.flex4 .container{
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+}
+
+
+.flex5 .item {
+  text-align: center;
+}
+
+.flex5 .item:nth-child(2){
+  order: 2;
+
+}
+.flex5 .item:nth-child(3){
+  order: 1;
+  
+}
+.flex5 .item:nth-child(4){
+  order: 3;
+  
+}
+.flex5 .item:nth-child(5){
+  order: 3;
+  
+}
+.flex5 .item:nth-child(6){
+  order: -1;
+  
+}

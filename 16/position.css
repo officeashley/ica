@@ -1,0 +1,14 @@
+main,
+section {
+  border: solid 1px;
+  margin: 20px;
+}
+
+main {
+  height: 4000px;
+}
+
+.target {
+  background-color: #bbdefb;
+  height: 100px;
+}

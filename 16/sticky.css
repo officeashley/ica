@@ -1,0 +1,12 @@
+section {
+  border: solid 2px #333;
+  min-height: 100vh;
+}
+
+.stickyContainer {
+  border: 5px solid #f00;
+}
+
+.sticky {
+  background-color: #03a9f4;
+}

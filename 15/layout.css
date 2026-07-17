@@ -43,3 +43,22 @@ figure {
   text-align: center;
   margin: 20px 0;
 }
+
+
+
+.box {
+  display: flex;
+  gap: 40px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.mainColumn{
+  flex: 1;
+}
+.subColumn{
+  background-color: aliceblue;
+  width: 300px;
+  order: -1;
+}
+
