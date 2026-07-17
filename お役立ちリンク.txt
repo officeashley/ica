@@ -39,3 +39,13 @@
 
 MDN 
 https://developer.mozilla.org/ja/
+
+サイトのサンプルとHTIMLとCSSコードあり
+https://freefrontend.com/css-blog-cards/
+https://freefrontend.com/css-card-hover-effects/ 四つのカード
+
+
+https://fonts.google.com/
+
+
+https://ezgif.com/optimize/ezgif-2827d63268761ad4.gif gif 作成

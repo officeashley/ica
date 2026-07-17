@@ -12,3 +12,31 @@ main {
   background-color: #bbdefb;
   height: 100px;
 }
+
+.target1{
+  position: relative;
+  top: 30px;
+  left: 30px;
+  z-index: 10;
+
+
+}
+
+.target2{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+background-color: blue;
+color: antiquewhite;
+z-index: 50;
+
+}
+
+.section2{
+  position: relative;
+
+}
+
+.target3{position: fixed;
+
+}
