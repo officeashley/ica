@@ -1,0 +1,231 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Crimson Text", "Noto Sans JP", sans-serif;
+  background-color: #eae7e1;
+  color: #111;
+  overflow: hidden;
+}
+
+
+header.cf {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  z-index: 10000;
+}
+
+header.cf h2 a { text-decoration: none; }
+.logo-text {
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  color: #111;
+}
+
+header.cf nav .inner ul.gnav { display: flex; list-style: none; }
+header.cf nav .inner ul.gnav li { margin-left: 40px; }
+header.cf nav .inner ul.gnav li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  display: block;
+  padding: 10px 0;
+}
+
+
+.p-top-kv__middle {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-top-kv__bg-text {
+  position: absolute;
+  font-family: "Crimson Text", serif;
+  font-size: 12vw;
+  font-weight: bold;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.035);
+  white-space: nowrap;
+  z-index: 1;
+  pointer-events: none; 　/＊これ消してもいいかな？＊/
+}
+
+.animate-bg-text {
+  animation: flowText 25s linear infinite;
+}
+
+@keyframes flowText {
+  0% { transform: translateX(30%); }
+  100% { transform: translateX(-30%); }
+}
+
+
+.p-top-kv__middleChild {
+  position: relative;
+  z-index: 2;
+  width: 55vw;
+  max-width: 800px;
+}
+
+.p-top-kv__akikoImage-container {
+  position: relative;
+  width: 100%;
+}
+
+.p-top-kv__akikoImage-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  
+  filter: drop-shadow(0 5px 15px rgba(0,0,0,0.05)); 
+}
+
+
+.shadow-ellipse {
+  position: absolute;
+  bottom: -15px; 
+  left: 5%;
+  width: 90%; 
+  height: 30px; 
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 70%); 
+  z-index: -1; 
+  transform: scaleX(0.7); 
+  opacity: 0;
+  animation: shadowFade 1.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes shadowFade {
+  0% {
+    opacity: 0;
+    transform: scaleX(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+
+.animate-premium-slide {
+  opacity: 0;
+  
+  animation: premiumSlideIn 1.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes premiumSlideIn {
+  0% {
+    opacity: 0;
+        transform: translate(80px, 100px) rotate(2deg); 
+  }
+  70% {
+        transform: translate(-5px, -5px) rotate(-0.5deg);
+  }
+  100% {
+    opacity: 1;
+   
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+
+.kv-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: #111;
+  border-radius: 50%;
+  z-index: 10;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.kv-arrow:hover {
+  background-color: #000;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.kv-arrow::after {
+  content: '';
+  position: absolute;
+  top: 35%;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+.arrow-left { left: 40px; }
+.arrow-left::after {
+  left: 40%;
+  transform: rotate(-135deg);
+}
+
+.arrow-right { right: 40px; }
+.arrow-right::after {
+  right: 40%;
+  transform: rotate(45deg);
+}
+
+
+.p-top-kv__info-area {
+  position: absolute;
+  bottom: 50px;
+  left: 60px;
+  z-index: 5;
+  max-width: 400px;
+}
+
+.info-num {
+  font-family: "Crimson Text", serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.info-title {
+  font-family: "Crimson Text", sans-serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  line-height: 1.1;
+}
+
+.info-sub {
+  font-family: "Crimson Text", serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.info-story-text p {
+  font-size: 0.85rem;
+  color: #444;
+  line-height: 1.6;
+}
+
